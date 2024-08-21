@@ -1,6 +1,6 @@
 version: 0.0
 Resources:
-  - Targetservice:
+  - TargetService:
       Type: AWS::ECS::Service
       Properties:
         TaskDefinition: "<TASK_DEFINITION>"
